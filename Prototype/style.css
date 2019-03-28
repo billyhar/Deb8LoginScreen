@@ -1,0 +1,172 @@
+
+
+body {
+ background-image: url("assets/bg.png");
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-attachment: fixed;
+ font-family: Quicksand, sans-serif;
+}
+
+p{
+
+font-size: 9px;
+
+}
+
+
+h2{
+
+font-family: Quicksand-Bold;
+font-size: 34px;
+text-align: center;
+font-weight: 900;
+
+}
+
+
+.Logo{
+margin-top: 40px;
+margin-left: 42%;
+
+}
+
+.modal-content{
+border-radius: 18px;
+border: 0;
+}
+
+.modal-dialog{
+max-width: 350px;
+margin: auto;
+margin-top: 2em;
+}
+
+.modal-header{
+
+border:0;
+
+}
+
+.form-control{
+box-shadow: none;
+
+}
+
+
+.form-group{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.fancy-form{
+font-family: Quicksand, sans-serif;
+color: #2f5687;
+font-size: 12px;
+font-weight: 100;
+border-top: none;
+border-left: none;
+border-right: none;
+border-image: linear-gradient(to right, #56B7CE 0%,#2B819F 100%);
+border-image-slice: 1;
+border-width: 2px;
+
+outline: none;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.form-icons{
+
+}
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    color: #2B819F;
+    text-align: center;
+    background-color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #56B7CE;
+    border-radius: 0;
+}
+
+
+.modal-footer{
+
+text-align: center;
+border: 0;
+
+}
+
+.login-button{
+width: 90%;
+border-radius: 16px;
+background-image: linear-gradient(to right, #236D9D 0%, #4EB09D 100%);
+border: 0;
+height: 35px;
+
+}
+
+.login-button:hover{
+
+background-image: linear-gradient(to right, #4EB09D 0%, #236D9D 100%)
+
+}
+
+
+/* mediaQs */
+
+/* iphone */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .modal-content{
+    border-radius: 9px;
+    border: 0;
+    }
+
+    .modal-dialog{
+    max-width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 4em;
+    }
+
+}
+
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .modal-content{
+    border-radius: 9px;
+    border: 0;
+    }
+
+    .modal-dialog{
+    max-width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 4em;
+    }
+
+}
